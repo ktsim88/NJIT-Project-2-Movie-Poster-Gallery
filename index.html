@@ -14,7 +14,7 @@
 	<!-- DO NOT CHANGE ANYTHING ABOVE THIS LINE-->
 
 	<!-- Javascript Framework (e.g., vue.js) (ADD HERE) -->
-	 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+	 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 	 
 
 
@@ -26,7 +26,7 @@
 	    <div class="header">
 
 	      <div class="container">
-	        <h1 id="app_title">%title%</h1>
+	        <h1 id="app_title">{{title}}</h1>
 	      </div>
 
 	    </div>
@@ -59,8 +59,8 @@
 
 	    <div class="footer">
 	      <div class="container">
-			<a id="github" class="btn btn-lg btn-warning">
-				<i class="bi bi-github me-2"></i>%owner%
+			<a id="github" class="btn btn-lg btn-warning" v-bind:href=" githubLink">
+				<i class="bi bi-github me-2"></i>{{ owner }}
 	  		</a>
 	      </div>
 	    </div>
