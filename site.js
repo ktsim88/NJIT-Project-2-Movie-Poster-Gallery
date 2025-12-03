@@ -37,7 +37,6 @@ const vue_app = Vue.createApp({
               siteTitle: "IMDB + Kristen's Top 10 Movies",
               owner: "Kristen",
               githubLink: "https://github.com/ktsim88/NJIT-Project-2-Movie-Poster-Gallery"
-         
       }
     },
       methods: {
