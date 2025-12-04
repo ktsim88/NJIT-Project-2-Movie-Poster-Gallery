@@ -19,7 +19,12 @@
 //
 // FOR STEP 16, ADD THREE OF YOUR OWN FAVORITE MOVIES WITH METADATA TO THE END OF THE JSON FILE LIST
 */
-
+let month;
+let day;
+let year;
+let currentIndex;
+let hour;
+let remainingMinutes
 
 const vue_app = Vue.createApp({
       // This automatically imports your movies.json file and puts it into
@@ -41,6 +46,62 @@ const vue_app = Vue.createApp({
     },
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
+            getMonthText(dateArray) {
+                  
+                  switch (dateArray[1]) {
+                        case 1:
+                              month = "January"
+                              break
+                        case 2:
+                              month = "February"
+                              break
+                        case 3:
+                              month = "March"
+                              break
+                        case 4:
+                              month = "April"
+                              break
+                        case 5:
+                              month = "May"
+                              break
+                        case 6:
+                              month = "June"
+                              break
+                        case 7:
+                              month = "July"
+                              break
+                        case 8:
+                              month = "August"
+                              break
+                        case 9:
+                              month = "September"
+                              break
+                        case 10:
+                              month = "October"
+                              break
+                        case 11:
+                              month = "November"
+                              break
+                        default:
+                              month = "December"
+                              break
+                        
+                  }
+                  day = dateArray[2]
+                  year = dateArray[0]
+                  return `${month} ${day}, ${year}`;
+                  
+                  
+            },
+            posterClick(index) {
+                  this.index = (index + 1) % this.posters.length
+            },
+            timeText(minutes) {
+                  hour = Math.floor(minutes / 60)
+                  remainingMinutes = minutes - (60 * hour)
+                  
+                  return hour + remainingMinutes
+             }
       }
 })
 
