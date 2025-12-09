@@ -53,7 +53,7 @@
                 Released: {{getMonthText(movie.released)}} | Rated:
                 {{movie.rating}}
               </p>
-              <p class="websites">Websites: <a> imdb </a> | <a>website</a></p>
+              <p class="websites">Websites: <a :href="movie.imdb">IMDB</a> | <a :href="movie.website">Website</a></p>
 
               <div class="social">
                 <p class="likes" @click="movie.likes++">

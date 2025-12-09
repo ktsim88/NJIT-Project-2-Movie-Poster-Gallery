@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Pleasantville",
+            "iscore": 7.5,
+            "rating": "PG-13",
+            "runtime": 124,
+            "released": [1998, 10, 23],
+            "country": "USA",
+            "posters": ["img/pleasantville1.jpg", "img/pleasantville2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0120789/?ref_=fn_t_1",
+            "website": "https://www.warnerbros.com/movies/pleasantville",
+            "likes": 487,
+            "dislikes": 67,
+            "posterindex": 0
+      },
+      {
+            "title": "The Breakfast Club",
+            "iscore": 7.8,
+            "rating": "R",
+            "runtime": 97,
+            "released": [1985, 2, 15],
+            "country": "USA",
+            "posters": ["img/breakfastClub1.jpg", "img/breakfastClub2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0088847/?ref_=nv_sr_srsg_0_tt_5_nm_3_in_0_q_breakfast%2520club",
+            "website": "https://www.facebook.com/TheBreakfastClubMovie/",
+            "likes": 214,
+            "dislikes": 69,
+            "posterindex": 0
+      },
+      {
+            "title": "The Truman Show",
+            "iscore": 8.2,
+            "rating": "PG",
+            "runtime": 103,
+            "released": [1985, 6, 5],
+            "country": "USA",
+            "posters": ["img/trumanShow1.jpg", "img/trumanShow2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0120382/?ref_=fn_t_1",
+            "website": "https://www.truman-show.com/",
+            "likes": 732,
+            "dislikes": 61,
+            "posterindex": 0
       }
 ]
