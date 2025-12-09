@@ -5,7 +5,9 @@ body {
     padding: 0;
     width: 100%;
     overflow: auto;
-    background-image: url(img/geometry.jpg);
+    background-image: url(img/bluebg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* This stylizes the header area */
@@ -19,7 +21,7 @@ body {
 
 /* This stylizes the main page area */
 .main {
-    background-color: #f2f2f2;
+    background-color: #f2f2f2a4;
     padding: 40px 0;
 }
 
@@ -135,4 +137,12 @@ body {
 .dislikes:hover {
     background-color: #fdd6d6;
     color: #F65A5B;
+}
+
+#app_title {
+    font-family: "hauser-script", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 49px;
+    color: white;
 }
