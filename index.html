@@ -54,9 +54,9 @@
                 Released: {{getMonthText(movie.released)}} | Rated:
                 {{movie.rating}}
               </p>
-              <p class="websites">Websites: <a :href="movie.imdb">IMDB</a> | <a :href="movie.website">Website</a></p>
+              <p class="websites mb-3">Websites: <a :href="movie.imdb">IMDB</a> | <a :href="movie.website">Website</a></p>
 
-              <div class="social">
+              <div class="social mt-5">
                 <p class="likes" @click="movie.likes++">
                   <i class="bi bi-hand-thumbs-up" aria-hidden="true"></i>
                   {{movie.likes}}
